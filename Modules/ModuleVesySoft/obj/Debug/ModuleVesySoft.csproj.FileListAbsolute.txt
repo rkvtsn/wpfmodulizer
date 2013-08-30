@@ -1,0 +1,26 @@
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\bin\Debug\ModuleVesySoft.dll
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\bin\Debug\ModuleVesySoft.pdb
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\bin\Debug\WpfModulizer.Library.dll
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\bin\Debug\WpfModulizer.Library.pdb
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\UserControl1.baml
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\UserControl1.g.cs
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft_MarkupCompile.cache
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft.g.resources
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft.Properties.Resources.resources
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft.csproj.GenerateResource.Cache
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft.dll
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft.pdb
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\WpfModulizer\bin\Debug\Modules\ModuleVesySoft.dll
+C:\Users\Andrey\Documents\Visual Studio 2012\Projects\WpfModulizer\WpfModulizer\bin\Debug\Modules\ModuleVesySoft.pdb
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\bin\Debug\Modules\ModuleVesySoft.dll
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\bin\Debug\Modules\ModuleVesySoft.pdb
+C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\UserControl1.baml
+C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\UserControl1.g.cs
+C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft_MarkupCompile.cache
+C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft.g.resources
+C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft.Properties.Resources.resources
+C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft.csproj.GenerateResource.Cache
+C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft.dll
+C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleVesySoft\obj\Debug\ModuleVesySoft.pdb

@@ -1,0 +1,30 @@
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\bin\Debug\WpfModulizer.exe
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\bin\Debug\WpfModulizer.pdb
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer.csprojResolveAssemblyReference.cache
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\obj\Debug\MainWindow.baml
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\obj\Debug\MainWindow.g.cs
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\obj\Debug\App.g.cs
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer_MarkupCompile.cache
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer.g.resources
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer.Properties.Resources.resources
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer.csproj.GenerateResource.Cache
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer.exe
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer.pdb
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\bin\Debug\WpfModulizer.Library.dll
+c:\users\andrey\documents\visual studio 2012\Projects\WpfModulizer\WpfModulizer\bin\Debug\WpfModulizer.Library.pdb
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer.exe
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer.pdb
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\bin\Debug\WpfModulizer.exe
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\bin\Debug\WpfModulizer.pdb
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\bin\Debug\WpfModulizer.Library.dll
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\bin\Debug\WpfModulizer.Library.pdb
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\obj\Debug\MainWindow.baml
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\obj\Debug\Views\ModuleListPage.baml
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\obj\Debug\MainWindow.g.cs
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\obj\Debug\Views\ModuleListPage.g.cs
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\obj\Debug\App.g.cs
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer_MarkupCompile.cache
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer.g.resources
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer.Properties.Resources.resources
+C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer\obj\Debug\WpfModulizer.csproj.GenerateResource.Cache
