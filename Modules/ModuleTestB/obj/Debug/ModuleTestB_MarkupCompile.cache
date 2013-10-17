@@ -4,17 +4,17 @@
 library
 C#
 .cs
-C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleTestB\obj\Debug\
+D:\Projects\Modulizer\WpfModulizer\Modules\ModuleTestB\obj\Debug\
 ModuleTestB
 none
 false
 DEBUG;TRACE
 
-11811751144
+21128136836
 
-61420531753
-13-813995134
-Views\MainView.xaml;
+7-181922082
+13-2133386252
+Views\MainView.xaml;Views\Page1.xaml;
 
 False
 

@@ -13,19 +13,25 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfModulizer.Library;
 
-namespace ModuleVesySoft
+namespace ModuleTestB.Views
 {
     /// <summary>
-    /// Логика взаимодействия для UserControl1.xaml
+    /// Interaction logic for Page1.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl , IView
+    public partial class Page1 : Page, IView
     {
-        public UserControl1()
+        public Page1()
         {
             InitializeComponent();
         }
+
+
         public INavigation Navigation { get; set; }
         public IViewModel ViewModel { get; set; }
-        public string Title { get; set; }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.GoHome();
+        }
     }
 }

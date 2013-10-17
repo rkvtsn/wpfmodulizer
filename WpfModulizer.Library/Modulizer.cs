@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading;
 using System.Windows;
 
 namespace WpfModulizer.Library
 {
+
+    /// <summary>
+    /// Ядро системы
+    /// </summary>
     public class Modulizer
     {
         private static readonly Modulizer Instance = new Modulizer();
@@ -17,35 +18,38 @@ namespace WpfModulizer.Library
         static Modulizer() { }
         private Modulizer() { }
         static public Modulizer Pool { get { return Instance; } }
-        public IDictionary<string, IModule> CurrentModules { get; set; }
+        public IDictionary<Guid, IModule> CurrentModules { get; set; }
 
         public Modulizer Boot(string directory)
         {
             string[] dlls = Directory.GetFiles(directory, "*.dll");
-            CurrentModules = new Dictionary<string, IModule>();
+            CurrentModules = new Dictionary<Guid, IModule>();
             Assembly assembly = null;
             Type type = null;
-            //IModule instance = null;
             foreach (var dll in dlls)
             {
                 assembly = Assembly.LoadFrom(dll);
                 string name = Path.GetFileNameWithoutExtension(dll);
                 type = assembly.GetType(name + "." + name);
-                //if (type == null || type.GetInterface("IModule") == null) continue;
-                //instance = (IModule)type.InvokeMember(String.Empty, BindingFlags.CreateInstance, null, null, null);
-                //CurrentModules.Add(instance.ModuleId.ToString(), instance);
-                //instance.Initializer();
                 var module = this.CreateModuleByType(type);
-                CloneModule(module);
+                // Клонируем модули если необходимо !
+                //CloneModule(module);
             }
             return Instance;
         }
+        #region @old
+        //IModule instance = null;
+        //{if (type == null || type.GetInterface("IModule") == null) continue;
+        //instance = (IModule)type.InvokeMember(String.Empty, BindingFlags.CreateInstance, null, null, null);
+        //CurrentModules.Add(instance.ModuleId.ToString(), instance);
+        //instance.Initializer();}
+        #endregion
 
         private IModule CreateModuleByType(Type type)
         {
             if (type == null || type.GetInterface("IModule") == null) return null;
             var instance = (IModule)type.InvokeMember(String.Empty, BindingFlags.CreateInstance, null, null, null);
-            CurrentModules.Add(instance.ModuleId.ToString(), instance);
+            CurrentModules.Add(instance.ModuleId, instance);
             instance.Initializer();
             return instance;
         }
@@ -58,26 +62,26 @@ namespace WpfModulizer.Library
 
         #region @public
 
-        public void CloneModule(string guidstr)
+        public void CloneModule(Guid id)
         {
-            if (CurrentModules.ContainsKey(guidstr)) this.CreateModuleByType(CurrentModules[guidstr].GetType());
+            if (CurrentModules.ContainsKey(id)) this.CreateModuleByType(CurrentModules[id].GetType());
         }
 
         public void CloneModule(IModule module)
         {
-            if (module != null) this.CloneModule(module.ModuleId.ToString());
+            if (module != null) this.CloneModule(module.ModuleId);
         }
-        public void UpdateModule(string guidstr)
+        public void UpdateModule(Guid id)
         {
-            if (CurrentModules.ContainsKey(guidstr)) CurrentModules[guidstr].Load();
+            if (CurrentModules.ContainsKey(id)) CurrentModules[id].Load();
 
         }
 
-        public void RemoveModule(string guidstr)
+        public void RemoveModule(Guid id)
         {
-            if (!CurrentModules.ContainsKey(guidstr)) return;
-            CurrentModules[guidstr].Destruct();
-            CurrentModules.Remove(guidstr);
+            if (!CurrentModules.ContainsKey(id)) return;
+            CurrentModules[id].Destruct();
+            CurrentModules.Remove(id);
         }
 
         public void Destruct()

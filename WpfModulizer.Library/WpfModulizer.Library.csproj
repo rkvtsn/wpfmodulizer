@@ -61,6 +61,7 @@
     <Compile Include="ModuleService.cs" />
     <Compile Include="ModuleWindow.cs" />
     <Compile Include="Modulizer.cs" />
+    <Compile Include="NavigationContext.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

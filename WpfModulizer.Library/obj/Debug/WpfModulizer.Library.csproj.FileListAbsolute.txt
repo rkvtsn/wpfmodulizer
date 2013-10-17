@@ -12,3 +12,9 @@ C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer.Library\obj\Debug\WpfModulizer
 C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer.Library\obj\Debug\WpfModulizer.Library.csproj.GenerateResource.Cache
 C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer.Library\obj\Debug\WpfModulizer.Library.dll
 C:\Users\Andrey\Desktop\WpfModulizer\WpfModulizer.Library\obj\Debug\WpfModulizer.Library.pdb
+D:\Projects\Modulizer\WpfModulizer\WpfModulizer.Library\bin\Debug\WpfModulizer.Library.dll
+D:\Projects\Modulizer\WpfModulizer\WpfModulizer.Library\bin\Debug\WpfModulizer.Library.pdb
+D:\Projects\Modulizer\WpfModulizer\WpfModulizer.Library\obj\Debug\WpfModulizer.Library.Properties.Resources.resources
+D:\Projects\Modulizer\WpfModulizer\WpfModulizer.Library\obj\Debug\WpfModulizer.Library.csproj.GenerateResource.Cache
+D:\Projects\Modulizer\WpfModulizer\WpfModulizer.Library\obj\Debug\WpfModulizer.Library.dll
+D:\Projects\Modulizer\WpfModulizer\WpfModulizer.Library\obj\Debug\WpfModulizer.Library.pdb

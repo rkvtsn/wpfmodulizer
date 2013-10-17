@@ -24,3 +24,14 @@ C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleTestA\obj\Debug\ModuleTestA.P
 C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleTestA\obj\Debug\ModuleTestA.csproj.GenerateResource.Cache
 C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleTestA\obj\Debug\ModuleTestA.dll
 C:\Users\Andrey\Desktop\WpfModulizer\Modules\ModuleTestA\obj\Debug\ModuleTestA.pdb
+D:\Projects\Modulizer\WpfModulizer\WpfModulizer\bin\Debug\Modules\ModuleTestA.dll
+D:\Projects\Modulizer\WpfModulizer\WpfModulizer\bin\Debug\Modules\ModuleTestA.pdb
+D:\Projects\Modulizer\WpfModulizer\Modules\ModuleTestA\obj\Debug\ModuleTestA.csprojResolveAssemblyReference.cache
+D:\Projects\Modulizer\WpfModulizer\Modules\ModuleTestA\obj\Debug\Views\MainView.baml
+D:\Projects\Modulizer\WpfModulizer\Modules\ModuleTestA\obj\Debug\Views\MainView.g.cs
+D:\Projects\Modulizer\WpfModulizer\Modules\ModuleTestA\obj\Debug\ModuleTestA_MarkupCompile.cache
+D:\Projects\Modulizer\WpfModulizer\Modules\ModuleTestA\obj\Debug\ModuleTestA.g.resources
+D:\Projects\Modulizer\WpfModulizer\Modules\ModuleTestA\obj\Debug\ModuleTestA.Properties.Resources.resources
+D:\Projects\Modulizer\WpfModulizer\Modules\ModuleTestA\obj\Debug\ModuleTestA.csproj.GenerateResource.Cache
+D:\Projects\Modulizer\WpfModulizer\Modules\ModuleTestA\obj\Debug\ModuleTestA.dll
+D:\Projects\Modulizer\WpfModulizer\Modules\ModuleTestA\obj\Debug\ModuleTestA.pdb

@@ -4,7 +4,8 @@ using System.Threading;
 
 namespace WpfModulizer.Library
 {
-    public abstract class ModuleBase<T> : IModule<T> where T : ConfigModel
+    public abstract class ModuleBase<T> : IModule
+        where T : ConfigModel
     {
         #region @ctor
 
@@ -24,14 +25,11 @@ namespace WpfModulizer.Library
 
         #endregion
 
-
-
         private readonly string _moduleName;
         public string ModuleName { get { return _moduleName; } }
 
         private readonly string _dllName;
         public string DllName { get { return _dllName; } }
-
 
         public Guid ModuleId { get; set; }
 
@@ -40,12 +38,12 @@ namespace WpfModulizer.Library
         
         public void ConfigurationRefresh()
         {
-           this.Configuration = Config<T>.Context.Get(this.ModuleId.ToString());
+           this.Configuration = Config<T>.Context.Get(this.ModuleId);
         }
 
         public void ConfigurationLoad(string dllName)
         {
-            Config<T>.Context.Load(this.ModuleId.ToString(), this._dllName);
+            Config<T>.Context.Load(this.ModuleId, this._dllName);
         }
 
         public void ConfigurationLoad()

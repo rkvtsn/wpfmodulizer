@@ -10,7 +10,7 @@ using WpfModulizer.Library;
 
 namespace ModuleVesySoft
 {
-    public class ModuleVesySoft : ModuleService<VesySoftService> { }
+    public class ModuleVesySoft : ModuleService<VesySoftService, ConfigModel> { }
 
 
     public class VesySoftService : IService
@@ -22,7 +22,7 @@ namespace ModuleVesySoft
 
         public VesySoftService()
         {
-            return;// TODO
+            //return;// TODO Exception
             _thread = new Thread(ServerRequest);
             _stop = false;
             Load();
@@ -57,13 +57,13 @@ namespace ModuleVesySoft
             try
             {
                 //TODO
-                //_serverObj.SetLogout(UserName);
+                _serverObj.SetLogout(UserName);
             }
             catch (Exception e)
             {
                 throw new Exception(e.Message);
             }
-            //_thread.Abort();
+            _thread.Abort();
         }
 
         private void Load()

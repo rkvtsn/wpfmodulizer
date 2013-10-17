@@ -2,13 +2,13 @@
 
 namespace WpfModulizer.Library
 {
-    public interface IModule<T> where T : ConfigModel
+    public interface IModule //<T> where T : ConfigModel
     {
         string ModuleName { get; }
         string DllName { get; }
         
         Guid ModuleId { get; set; }
-        T Configuration { get; set; }
+        //T Configuration { get; set; }
         
 
         #region @methods

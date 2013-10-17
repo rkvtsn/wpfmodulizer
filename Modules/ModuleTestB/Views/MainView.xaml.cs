@@ -15,6 +15,8 @@ namespace ModuleTestB.Views
             EventAggregator.Subscribe("onClick", someAction);
         }
 
+        public INavigation Navigation { get; set; }
+
         public IViewModel ViewModel
         {
             get { return (IViewModel)DataContext; }
@@ -26,7 +28,8 @@ namespace ModuleTestB.Views
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
-            EventAggregator.Publish("ClickB", new EventMessage { Message = _i++ });
+            //EventAggregator.Publish("ClickB", new EventMessage { Message = _i++ });
+            this.Navigation.GoTo("Page1");
         }
     }
 }

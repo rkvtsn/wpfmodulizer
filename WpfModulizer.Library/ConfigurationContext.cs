@@ -3,20 +3,25 @@ using System.Collections.Generic;
 
 namespace WpfModulizer.Library
 {
+    /// <summary>
+    /// Конфигуратор
+    /// </summary>
+    /// <typeparam name="T">XML модель конфига</typeparam>
     public class Config<T> where T : ConfigModel
     {
         #region @singleton
 
-        private Config() { _configurations = new Dictionary<string, ConfigModel>(); }
+        private Config() { _configurations = new Dictionary<Guid, ConfigModel>(); }
         readonly private static Config<T> ConfigContext = new Config<T>();
         public static Config<T> Context { get { return ConfigContext; } }
 
         #endregion
-
-
-
-
-        public void Save(string moduleId)
+        
+        /// <summary>
+        /// Сохранить модуль
+        /// </summary>
+        /// <param name="moduleId">Guid модуля</param>
+        public void Save(Guid moduleId)
         {
             try
             {
@@ -29,14 +34,17 @@ namespace WpfModulizer.Library
             }
         }
 
-        public void Load(string moduleId, string dllName)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="moduleId">Guid модуля</param>
+        /// <param name="dllName"></param>
+        public void Load(Guid moduleId, string dllName)
         {
             try
             {
                 // TODO
-                T model = null;
-                // TODO
-                this.Set(moduleId, model);
+                //this.Set(moduleId, model);
             }
             catch (Exception e)
             {
@@ -44,20 +52,26 @@ namespace WpfModulizer.Library
             }
         }
 
-        private readonly IDictionary<string, ConfigModel> _configurations;
+        public void SetDefault(string moduleId)
+        {
+            //TODO
+        }
 
-        public void Remove(string moduleId)
+
+        private readonly IDictionary<Guid, ConfigModel> _configurations;
+
+        public void Remove(Guid moduleId)
         {
             if (this._configurations.ContainsKey(moduleId)) { this._configurations.Remove(moduleId); }
         }
 
-        public T Get(string moduleId)
+        public T Get(Guid moduleId)
         {
             if (this._configurations.ContainsKey(moduleId)) { return (T)this._configurations[moduleId]; }
             return null;
         }
 
-        public void Set(string moduleId, T config)
+        public void Set(Guid moduleId, T config)
         {
             if (!this._configurations.ContainsKey(moduleId)) { this._configurations[moduleId] = config; }
             this._configurations.Add(moduleId, config);

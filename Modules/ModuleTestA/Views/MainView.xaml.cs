@@ -21,6 +21,8 @@ namespace ModuleTestA.Views
             this.world.Text = temp.ToString();
         }
 
+        public INavigation Navigation { get; set; }
+
         public IViewModel ViewModel
         {
             get { return (IViewModel)DataContext; }

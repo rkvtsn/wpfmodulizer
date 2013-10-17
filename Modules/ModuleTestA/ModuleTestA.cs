@@ -4,7 +4,7 @@ using WpfModulizer.Library;
 
 namespace ModuleTestA
 {
-    public class ModuleTestA : ModuleWindow<MainView>
+    public class ModuleTestA : ModuleWindow<MainView, ConfigModel>
     {
     }
 }
